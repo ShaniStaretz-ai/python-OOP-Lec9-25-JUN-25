@@ -29,5 +29,5 @@ def do_div(a, b):
 if __name__ == '__main__':
     print(sum_args(1, 2, 3))
     result = do_div(3, 0)
-    if result:
+    if result: #if an error happened, will return None, else will print the result
         print(result)
